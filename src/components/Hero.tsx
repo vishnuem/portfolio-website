@@ -47,7 +47,7 @@ const Hero = () => {
             transition={{ duration: 0.8 }}
           >
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-6 text-gray-900">
-              Nithin Sudheer
+              Vishnu Vardhan
             </h1>
             
             <p className="text-2xl sm:text-3xl text-gray-800 mb-4 font-medium">

@@ -44,7 +44,7 @@ const Contact = () => {
         from_name: formData.name,
         from_email: formData.email,
         message: formData.message,
-        to_name: 'Nithin Sudheer',
+        to_name: 'Vishnu vardhan',
       };
 
       await emailjs.send(serviceId, templateId, templateParams, publicKey);
@@ -69,15 +69,15 @@ const Contact = () => {
     {
       icon: <Mail size={24} />,
       title: 'Email',
-      value: 'nnsudheer138@gmail.com',
-      href: 'mailto:nnsudheer138@gmail.com',
+      value: 'vishnuofficial899@gmail.com',
+      href: 'mailto:vishnuofficial899@gmail.com',
       gradient: 'from-orange-500 to-amber-500',
     },
     {
       icon: <Phone size={24} />,
       title: 'Phone',
-      value: '+91 9441670138',
-      href: 'tel:+919441670138',
+      value: '+91 7702140781',
+      href: 'tel:+917702140781',
       gradient: 'from-orange-500 to-amber-500',
     },
     {

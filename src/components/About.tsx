@@ -85,7 +85,7 @@ const About = () => {
               />
               <div className="relative w-80 h-80 rounded-full bg-gradient-to-r from-emerald-500 via-cyan-500 to-blue-500 p-1">
                 <div className="w-full h-full rounded-full bg-white flex items-center justify-center overflow-hidden">
-                  <img src="/pic.jpg" alt="Nithin Sudheer" className="w-full h-full object-cover" />
+                  <img src="/pic.jpg" alt="vishnu vardhan" className="w-full h-full object-cover" />
                 </div>
               </div>
 

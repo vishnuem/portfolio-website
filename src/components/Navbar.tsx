@@ -42,7 +42,7 @@ const Navbar: React.FC<NavbarProps> = ({ activeSection }) => {
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0">
             <span className="text-xl font-bold text-gray-900 cursor-pointer" onClick={() => scrollToSection('hero')}>
-              Nithin Sudheer
+              Vishnu Vardhan
             </span>
           </div>
 
@@ -74,7 +74,7 @@ const Navbar: React.FC<NavbarProps> = ({ activeSection }) => {
           {/* Social Icons */}
           <div className="hidden md:flex items-center space-x-4">
             <a
-              href="https://github.com/nithin138"
+              href="https://github.com/Vishnuemani-dev"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 text-gray-600 hover:text-orange-500 transition-all duration-300 hover:scale-110 rounded-lg hover:bg-orange-500/10"
@@ -82,7 +82,7 @@ const Navbar: React.FC<NavbarProps> = ({ activeSection }) => {
               <Github size={20} />
             </a>
             <a
-              href="https://www.linkedin.com/in/nithin138/"
+              href="https://www.linkedin.com/in/emanivishnu/"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 text-gray-600 hover:text-orange-500 transition-all duration-300 hover:scale-110 rounded-lg hover:bg-orange-500/10"
@@ -122,7 +122,7 @@ const Navbar: React.FC<NavbarProps> = ({ activeSection }) => {
             ))}
             <div className="flex space-x-4 px-4 py-3">
               <a
-                href="https://github.com/nithin138"
+                href="https://github.com/Vishnuemani-dev"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 text-gray-600 hover:text-orange-500 transition-all duration-300 rounded-lg hover:bg-orange-500/10"
@@ -130,7 +130,7 @@ const Navbar: React.FC<NavbarProps> = ({ activeSection }) => {
                 <Github size={20} />
               </a>
               <a
-                href="https://www.linkedin.com/in/nithin138/"
+                href="https://www.linkedin.com/in/emanivishnu/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 text-gray-600 hover:text-orange-500 transition-all duration-300 rounded-lg hover:bg-orange-500/10"

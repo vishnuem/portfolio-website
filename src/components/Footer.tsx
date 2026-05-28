@@ -7,19 +7,19 @@ const Footer = () => {
   const socialLinks = [
     {
       icon: <Github size={20} />,
-      href: 'https://github.com/nithin138',
+      href: 'https://github.com/Vishnuemani-dev',
       label: 'GitHub',
       gradient: 'from-slate-600 to-gray-700',
     },
     {
       icon: <Linkedin size={20} />,
-      href: 'https://www.linkedin.com/in/nithin138/',
+      href: 'https://www.linkedin.com/in/emanivishnu/',
       label: 'LinkedIn',
       gradient: 'from-orange-500 to-amber-500',
     },
     {
       icon: <Mail size={20} />,
-      href: 'mailto:nnsudheer138@gmail.com',
+      href: 'mailto:vishnuofficial899@.com',
       label: 'Email',
       gradient: 'from-slate-500 to-gray-600',
     },
@@ -31,7 +31,7 @@ const Footer = () => {
         <div className="flex flex-col items-center space-y-8">
           {/* Logo/Name */}
           <div className="text-center">
-            <h3 className="text-2xl font-bold text-gray-900 mb-2">Nithin Sudheer</h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-2">Emani Vishnuvardhan</h3>
             <p className="text-gray-500 text-sm">Full-Stack AI Developer | AI/ML Expert | Cloud Enthusiast</p>
           </div>
 
@@ -74,7 +74,7 @@ const Footer = () => {
 
           {/* Copyright */}
           <div className="text-center text-gray-400 text-sm">
-            <p>&copy; {currentYear} Nithin Sudheer. All rights reserved.</p>
+            <p>&copy; {currentYear} Emani Vishnuvardhan. All rights reserved.</p>
           </div>
 
           {/* Quote */}

@@ -24,39 +24,39 @@ const Resume: React.FC = () => {
   });
 
   const handleViewResume = () => {
-    window.open('/nithin sudheer narayanapuram MERN[resume].pdf', '_blank');
+    window.open('/Emani_Vishnuvardhan_Resume.pdf', '_blank');
   };
 
   const handleDownloadResume = () => {
     const link = document.createElement('a');
-    link.href = '/nithin sudheer narayanapuram MERN[resume].docx';
-    link.download = 'Nithin_Sudheer_FullStack_AI_Developer.docx';
+    link.href = '/Emani_Vishnuvardhan_Resume.docx';
+    link.download = 'Emani_Vishnuvardhan_FullStack_AI_Developer.docx';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
   };
 
   const experiences: Experience[] = [
-    {
-      title: 'Full Stack Developer',
-      company: 'Vyva IT Solutions',
-      duration: 'November 2025 - Present',
-      description: 'Developing scalable web applications using MERN stack, implementing AI/ML solutions, and managing cloud infrastructure.',
-    },
+    // {
+    //   title: 'Full Stack Developer',
+    //   company: 'CodeFacts Solutions Pvt Ltd',
+    //   duration: 'January Present',
+    //   description: 'Developing scalable web applications using MERN stack, implementing AI/ML solutions, and managing cloud infrastructure.',
+    // },
     {
       title: 'Software Engineer',
       company: 'CodeFacts Solutions Pvt Ltd.',
-      duration: 'May 2024 - October 2025',
+      duration: 'January 2024 - present',
       description: 'Developed scalable web applications using MERN stack, implemented AI/ML solutions, and managed databases.',
     },
   ];
 
   const education: Education[] = [
     {
-      degree: 'Bachelor in Computer Science',
-      institution: 'Anurag Engineering College',
-      year: 'May 2024',
-      gpa: '7.5',
+      degree: 'Bachelor in Electronics communication engineering',
+      institution: 'Bharath University',
+      year: 'May 2023',
+      gpa: '8.9',
     },
   ];
 
