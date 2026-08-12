@@ -52,10 +52,10 @@ export const projects: Project[] = [
     description: 'A modern e-commerce platform similar to BigBasket, specializing in fresh vegetables, fruits, and essential kitchen items including oils, flours, and spices. Features include real-time inventory management, quality assurance, doorstep delivery tracking, and personalized recommendations.',
     tech: ['React', 'Node.js', 'Express', 'MongoDB', 'Payment Gateway', 'Google Maps API'],
     github: 'https://github.com',
-    demo: 'https://demo.com',
+    demo: 'https://bodegaa.in/',
     genre: 'Dev',
-    featured: false,
-    demoed: false
+    featured: true,
+    demoed: true
   },
   {
     id: '6',
